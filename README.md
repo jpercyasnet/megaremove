@@ -13,7 +13,7 @@ if not it will generate a cp and then rm statements, instead of mv statements.
 
 The input file is for the app is Video2017dryex.txt and its ouput is Video2017dryex.txt__tmp3
 
-<img src="image/megap.png" width="800px" />
+<img src="image/megaremove.png" width="800px" />
 
 The purpose for this was to avoid the mega sync process.
 
