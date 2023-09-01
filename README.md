@@ -5,7 +5,7 @@ Run the following before running this app:
 
 ---- fclones group /media/jp/MyBook6TBb/MEGA/Video/Video2017to2019/Video2017 > Video2017dups.txt
 
----- fclones move --keep-path '\**/rawvideo/**' --keep-path '\**short/**' --dry-run -o Video2017dryex.txt  /media/jp/MyBook6TBb/MEGA/Video2017Target < ./Video2017dups.txt 2>Video2017dr.txt
+---- fclones move --keep-path '\**/rawvideo/\**' --keep-path '\**short/\**' --dry-run -o Video2017dryex.txt  /media/jp/MyBook6TBb/MEGA/Video2017Target < ./Video2017dups.txt 2>Video2017dr.txt
 
 make sure the Target file is on the same drive as Video2017
 
